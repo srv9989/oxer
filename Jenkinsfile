@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/srv9989/https://github.com/srv9989/oxer.git'
+                git 'https://github.com/srv9989/oxer.git'
             }
         }
         stage('Build Docker Image') {
